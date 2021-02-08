@@ -1,11 +1,10 @@
 /** @type {import("snowpack").SnowpackUserConfig } */
 module.exports = {
   mount: {
-    /* ... */
+    public: "/",
+    src: "/dist",
   },
-  plugins: [
-    /* ... */
-  ],
+  plugins: ["@snowpack/plugin-react-refresh"],
   routes: [
     /* Enable an SPA Fallback in development: */
     // {"match": "routes", "src": ".*", "dest": "/index.html"},
@@ -18,7 +17,7 @@ module.exports = {
     /* ... */
   },
   devOptions: {
-    /* ... */
+    open: "none",
   },
   buildOptions: {
     /* ... */
