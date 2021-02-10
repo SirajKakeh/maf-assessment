@@ -1,0 +1,34 @@
+[
+  {
+    "id": 0,
+    "name": "trip 1",
+    "description": "Aute anim est sint velit. Ullamco magna esse minim aliqua proident ea incididunt ea ea laboris esse ipsum commodo. Consequat ut est et nostrud.",
+    "subDescription": "Officia voluptate proident reprehenderit culpa sint enim cillum do dolor aliquip. Adipisicing incididunt sint ex amet quis aute ad adipisicing tempor qui enim. Consequat sit id ipsum est eiusmod culpa aute excepteur ut. Quis exercitation dolor officia cupidatat culpa amet adipisicing.",
+    "imageUrl": "trip0.jpg",
+    "imageHint": "Magna quis laboris"
+  },
+  {
+    "id": 1,
+    "name": "trip 2",
+    "description": "Aute do enim deserunt Lorem non consectetur Lorem veniam proident. Laboris laboris ullamco ullamco fugiat nulla ex enim do voluptate.",
+    "subDescription": "Deserunt excepteur non qui ea. Fugiat aliquip aute sunt sint. Mollit culpa eu est esse consectetur nulla. Voluptate voluptate pariatur commodo sint deserunt et consectetur. Minim eu laboris duis qui id culpa nostrud pariatur enim incididunt. Tempor commodo laborum et reprehenderit duis non aliquip ipsum ad pariatur aliquip nulla nostrud non.",
+    "imageUrl": "trip1.jpg",
+    "imageHint": "Voluptate pariatur commodo"
+  },
+  {
+    "id": 2,
+    "name": "trip 3",
+    "description": "Aute anim est sint velit. Ullamco magna esse minim aliqua proident ea incididunt ea ea laboris esse ipsum commodo. Consequat ut est et nostrud.",
+    "subDescription": "Officia voluptate proident reprehenderit culpa sint enim cillum do dolor aliquip. Adipisicing incididunt sint ex amet quis aute ad adipisicing tempor qui enim. Consequat sit id ipsum est eiusmod culpa aute excepteur ut. Quis exercitation dolor officia cupidatat culpa amet adipisicing.",
+    "imageUrl": "trip2.jpg",
+    "imageHint": "Magna quis laboris"
+  },
+  {
+    "id": 3,
+    "name": "trip 4",
+    "description": "Aute do enim deserunt Lorem non consectetur Lorem veniam proident. Laboris laboris ullamco ullamco fugiat nulla ex enim do voluptate.",
+    "subDescription": "Deserunt excepteur non qui ea. Fugiat aliquip aute sunt sint. Mollit culpa eu est esse consectetur nulla. Voluptate voluptate pariatur commodo sint deserunt et consectetur. Minim eu laboris duis qui id culpa nostrud pariatur enim incididunt. Tempor commodo laborum et reprehenderit duis non aliquip ipsum ad pariatur aliquip nulla nostrud non.",
+    "imageUrl": "trip3.jpg",
+    "imageHint": "Voluptate pariatur commodo"
+  }
+]
