@@ -1,0 +1,41 @@
+.main-menu-clip-path {
+  position: fixed;
+  top: 0;
+  right: 0;
+  width: 100%;
+  right: 100%;
+}
+.main-nav {
+  position: fixed;
+  top: 0;
+  right: 0;
+  height: 100%;
+  width: 40vw;
+  max-width: 300px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background: rgba(var(--primary), 0.25);
+  box-shadow: 0 8px 32px 0 rgba(var(--primary), 0.37);
+  backdrop-filter: blur(0.6rem);
+  -webkit-backdrop-filter: blur(0.6rem);
+  font-family: "Noe Display";
+  clip-path: url("#clip-path");
+}
+.main-nav li {
+  padding: 0.6rem 0;
+  color: white;
+  font-size: 1.2rem;
+  letter-spacing: 2px;
+  text-align: center;
+}
+
+.main-menu-clip-path circle {
+  transition: transform 300ms ease-in-out;
+  transform-origin: right;
+  will-change: transform;
+}
+.main-menu-clip-path.visible circle {
+  transform: scale(1) translateZ(0);
+}
