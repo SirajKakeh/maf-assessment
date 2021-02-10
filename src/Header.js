@@ -6,7 +6,7 @@ import SideNav from "./SideNav";
 import MainNav from "./MainNav";
 
 export default function Header() {
-  const [menuVisible, setMenuVisible] = React.useState(true);
+  const [menuVisible, setMenuVisible] = React.useState(false);
   return (
     <header className="px-12 lg:px-40">
       <nav className="flex items-center mt-16 noe-display">
