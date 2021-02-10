@@ -26,11 +26,13 @@ code {
   @font-face {
     font-family: "Larsseit";
     src: url("./assets/fonts/Larsseit.otf");
+    font-display: swap;
   }
   @font-face {
     font-family: "Noe Display";
     src: url("./assets/fonts/Noe-Display-Bold.ttf");
     font-weight: bold;
+    font-display: swap;
   }
 
   button:focus {

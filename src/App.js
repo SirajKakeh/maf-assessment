@@ -1,7 +1,7 @@
 import React, { Suspense } from "react";
 import Header from "./Header";
 import MainContent from "./MainContent";
-import TripsContainer from "./Trips/TripsContainer";
+const TripsContainer = React.lazy(() => import("./Trips/TripsContainer"));
 const Background = React.lazy(() => import("./shared/Background"));
 
 function App() {
