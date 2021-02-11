@@ -18,10 +18,9 @@ reportWebVitals();
 
 if ("serviceWorker" in navigator) {
   // Use the window load event to keep the page load performant
-  window.addEventListener("load", () => {
-    navigator.serviceWorker
-      .register("/service-worker.js")
-      .then(console.log)
-      .catch(console.error);
-  });
+
+  navigator.serviceWorker
+    .register("/service-worker.js")
+    .then(console.log)
+    .catch(console.error);
 }
